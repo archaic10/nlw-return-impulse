@@ -12,7 +12,7 @@ export class NodeMailAdapter implements MailAdapter{
     async sendMail({subject, body}: SendMailData){
         await transport.sendMail({
         from: 'Equipe Feedget <oi@feedget.com>',
-        to: 'Vitor França <****@gmail.com>',
+        to: 'Vitor França <*****@gmail.com>',
         subject,
         html: body,
     });
