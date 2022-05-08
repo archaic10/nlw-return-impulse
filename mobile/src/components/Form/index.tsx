@@ -55,7 +55,6 @@ export function Form({ feedbackType, onFeedbackCanceled, onFeedbackSent }: Props
                 screenshot : `data:image/png;base64, ${screenshotBase64}`,
                 comment
             });
-            console.log(screenshot)
             onFeedbackSent();
 
         }catch(error){
