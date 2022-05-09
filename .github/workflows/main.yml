@@ -1,0 +1,15 @@
+name: release 
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        id: release
+        uses: madeiramadeirabr/action-generate-release@production
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
