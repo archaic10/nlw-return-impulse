@@ -19,7 +19,7 @@ An application developed during [Rocketseat](https://www.rocketseat.com.br/) nlw
 
 
 ## Deployment tools
-**Back-end:**[railway](https://railway.app/)
+**Back-end:**[railway](https://railway.app/)</p>
 **Front-end:**[vercel](https://vercel.com/)
 
 ## Using App
